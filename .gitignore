@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+function.zip
+config.json
+.vscode
+deploy.sh

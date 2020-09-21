@@ -1,0 +1,9 @@
+source venv/bin/activate
+pip install -r requirements.txt
+deactivate
+cd venv/lib/python3.8/site-packages
+zip -r9 ${OLDPWD}/function.zip .
+cd $OLDPWD
+zip -g function.zip lambda_function.py
+zip -g function.zip config.json
+aws lambda update-function-code --function-name <your-function-name> --zip-file fileb://function.zip

@@ -1,0 +1,5 @@
+{
+  "token": "<a-really-hard-to-guess-string>",
+  "only_text_endpoint": "https://maker.ifttt.com/trigger/only_text_weibo/with/key/<your-ifttt-key>",
+  "image_text_endpoint": "https://maker.ifttt.com/trigger/image_text_weibo/with/key/<your-ifttt-key>"
+}
