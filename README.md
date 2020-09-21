@@ -1,4 +1,5 @@
 # sync-weibo-2-twitter
+AWS Lambda function code for post https://old-panda.com/2020/09/20/sync-weibo-to-twitter/
 
 ## Environment Setup
 Python 3.8 is required. Rename the file `config.json.example` to `config.json` and replace `<your-ifttt-key>` with your IFTTT key. The `"token"` field is only to prevent your API being called from malicious sources, so you should put a string ONLY KNOWN TO YOU.
